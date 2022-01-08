@@ -84,7 +84,6 @@
       <p>ダーツ・ビリヤードのプロが丁寧に教えますので、初心者の方もお気軽に。</p>
   </h2>
   
-  
 </section>
   <div class="container" style="background-color:#191919;margin: 0px;max-width: 100%;">
     <h1 style="text-align:center;padding-top: 80px;">
