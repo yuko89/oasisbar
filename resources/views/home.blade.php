@@ -1,6 +1,6 @@
 @extends('layouts.layouts')
 {{--layouts.blade.php内で定義している@yield('content')に埋め込む--}}
-@section('title','OASISBAR | メニュー')
+@section('title','OASISBAR | トップページ')
 @section('content')
 <style>
   .p-course__menu__top>span:nth-child(1) {
@@ -71,10 +71,82 @@
     border-left: solid 1px #c5c6c7;
 }
 </style>
+<section class="p-story inter-section" data-section="story style="padding-top: 193px>
+  <h1 class="p-fixed__logo" style="position: relative;height: max-content;">
+    <img src="{{ secure_asset('image/floor.jpeg') }}">
+  </h1>
+  <h1 style="text-align:center;padding-top: 80px;">
+    About OASISBAR
+  </h1>
+  <h2 style="font=size:20px">
+      <p>思いっきり飲んで食べて遊べるダーツ＆ビリヤードバーです。</p>
+      <p>お酒はもちろん、料理も多数取り揃えております。</p>
+      <p>ダーツ・ビリヤードのプロが丁寧に教えますので、初心者の方もお気軽に。</p>
+  </h2>
+  
+</section>
+  <div class="container" style="background-color:#191919;margin: 0px;max-width: 100%;">
+    <h1 style="text-align:center;padding-top: 80px;">
+    SERVICE
+    </h1>
+        <div class="row">
+        　  <div class="" style="width: 50%;height: 400px;">
+                <img src="{{ secure_asset('image/bil.jpeg') }}">
+            </div>
+            <div class="" style="color: white;width: 40%;padding: 20px;">
+                <table class="table">
+                    <tbody>
+                        <div style="line-height:2;">
+                            <p>
+                            <h2 style="font-size:20px;">BILLIARDS</h2>
+                            -料金-<br>
+                            お一人様　500円/30分<br>
+                            3名様〜　1500円/30分<br>
+                            (何名様でもOK)<br>
+                        　　  <br>
+                            お一人様でもOK！<br>
+                            気さくなスタッフがご一緒に対戦します！<br>
+                            スタッフに勝つといいことがあるかも…？<br>
+                            </p>
+                        </div>
+                        <p></p>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="" style="color: white;width: 40%;padding: 20px;">
+                <table class="table">
+                    <tbody>
+                        <div style="line-height:2;">
+                            <p>
+                            <h2 style="font-size:20px;">DARTS</h2>
+                            -料金-<br>
+                            1ゲーム100円〜<br>
+                        初心者の方にもスタッフが丁寧に教えます。<br>
+                        　　<br>
+                            ダーツライブ２EX導入店！！<br>
+                            <img src="{{ secure_asset('image/dlive.gif') }}"><br>
+                            ゲーム結果をネットワークで集計！<br>
+                            ケータイやPCでいつでもチェックできます！<br>
+                            </p>
+                        </div>
+                        <p></p>
+                    </tbody>
+                </table>
+            </div>
+            <div class="" style="width: 50%;height: 400px;">
+                <img src="{{ secure_asset('image/darts.jpeg') }}">
+            </div>
+        </div>
+　</div>
 <section class="p-story inter-section" data-section="story style="padding-top: 100px">
+  <h1 style="text-align:center;padding-top: 80px;">
+    MENU
+  </h1>
   <h1 class="p-fixed__logo" style="position: relative;height: max-content;">
     <img src="{{ secure_asset('image/menu_top.jpeg') }}">
- </section>
+</section>
  <div class="p-course__menu">
     <div class="p-course__menu__top js-inter" style="color: white; transform: none;">
       <span></span>
@@ -278,4 +350,50 @@
         </div>
     </div>
  </div>
+　<div class="container" style="background-color:#191919;margin: 0px;max-width: 100%;">
+　  <h1 style="text-align:center;margin-bottom:30px;">
+    ACCESS
+    </h1>
+    <div class="row">
+    　  <div class="" style="width: 50%;height: 400px;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.1134257562144!2d139.77551545166298!3d35.674209017622786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018895e79440ea1%3A0xaf1effdf4e9022c0!2z44CSMTA0LTAwMzIg5p2x5Lqs6YO95Lit5aSu5Yy65YWr5LiB5aCA77yU5LiB55uu77yZ4oiS77yZ!5e0!3m2!1sja!2sjp!4v1640496877152!5m2!1sja!2sjp" style="border:0;width: 100%;height: 100%;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="" style="color: white;width: 40%;padding: 20px;">
+            <table class="table">
+                <tbody>
+                    <div style="line-height:2;">
+                        <p>
+                        -住所-<br>
+                        〒104-0032<br>
+                        東京都中央区八丁堀4-9-9　八丁堀フロンティアビルB1<br>
+                        </p>
+                    </div>
+                    <p></p>
+                    <div style="line-height:2;">
+                        <p>
+                        -アクセス-<br>
+                        地下鉄日比谷線八丁堀駅　A2番出口　徒歩1分<br>
+                        ＪＲ京葉線八丁堀駅　徒歩2分<br>
+                        都営浅草線宝町駅　徒歩7分<br>
+                        </p>
+                    </div>
+                    <div style="line-height:2;">
+                        <p>
+                        -営業時間-<br>
+                        18:00～05:00(第2日曜日は0:00まで)<br>
+                        </p>
+                    </div>
+                    <div style="line-height:2;">
+                        <p>
+                        -電話番号-<br>
+                        03-3555-1555<br>
+                        </p>
+                    </div>
+                </tbody>
+            </table>
+        </div>   
+        </div>
+    </div>
+  </div>
+    
 @endsection
