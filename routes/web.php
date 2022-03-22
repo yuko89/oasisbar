@@ -15,28 +15,11 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/menu', function () {
-    return view('menu');
-});
-
-Route::get('/service', function () {
-    return view('service');
-    
-});
-
 Route::get('/contact', function () {
     return view('contact');
 });
 
 Route::post('/contact', 'ContactController@send_mail');
-
-Route::get('/access', function () {
-    return view('access');
-});
-
-Route::get('/recruit', function () {
-    return view('recruit');
-});
 
 Route::get('/reserve', function () {
     return view('reserve');

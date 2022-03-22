@@ -3,7 +3,7 @@
 @section('title','OASISBAR | ご予約')
 @section('content')
 <section class="p-story inter-section" data-section="story style="padding-top: 193px">
-  <h1 style="text-align:center;">
+  <h1 style="text-align:center;padding-top: inherit;">
     ご予約
   </h1>
   <h2 style="text-align:center;">

@@ -3,7 +3,7 @@
 @section('title','OASISBAR | お問い合わせ')
 @section('content')
 <section class="p-story inter-section" data-section="story style="padding-top: 193px">
-  <h1 style="text-align:center;">
+  <h1 style="text-align:center;padding-top: inherit;">
     お問い合わせ
   </h1>
   <form style="width: 50%;margin: auto;" method="POST" action="/contact">
